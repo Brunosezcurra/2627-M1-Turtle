@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import turtle
 
-
+#kkjkk
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 500
 START_X = -320
