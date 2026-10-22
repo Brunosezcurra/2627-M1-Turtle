@@ -8,14 +8,14 @@ from __future__ import annotations
 
 import turtle
 
-#kkjkk
+
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 500
 START_X = -320
 FINISH_X = 300
 
-RED_SPEED = 5
-BLUE_SPEED = 3
+RED_SPEED = 25
+BLUE_SPEED = 35
 
 
 def prepare_game():
@@ -46,6 +46,7 @@ def prepare_game():
 
 def run_race(red, blue):
     """Mueve las tortugas hasta que una alcance la meta."""
+
     if RED_SPEED <= 0 or BLUE_SPEED <= 0:
         print("Las velocidades deben ser positivas.")
         return ""

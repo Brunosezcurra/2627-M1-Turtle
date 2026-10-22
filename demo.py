@@ -105,6 +105,7 @@ def main() -> None:  # Función principal que coordina toda la demostración.
 
     top_runner = create_runner("red", LANE_HEIGHT / 4)
     bottom_runner = create_runner("blue", -LANE_HEIGHT / 4)
+    # He probado a cambiar el color de la tortuga azul, por el amarillo (yellow)
 
     screen.tracer(1)  # Vuelve a mostrar animación para las tortugas corredoras.
 
